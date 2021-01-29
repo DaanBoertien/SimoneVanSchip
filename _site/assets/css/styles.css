@@ -18,6 +18,8 @@ section { margin-bottom: 2em; }
 
 .photo-container { position: relative; }
 
+.partners__logos { display: none; }
+
 .about .img1 { margin-top: 2em; border-radius: 10px; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); position: relative; display: block; }
 
 .about .img2 { position: absolute; z-index: 3; left: -30px; top: 30px; width: 60px; }
