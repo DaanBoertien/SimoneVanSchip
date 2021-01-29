@@ -43,7 +43,8 @@
 
   .partners__logos {
     display: flex;
-    gap: 2em;
+    gap: 3em;
+    align-items: space-between;
   }
   .partners__logos img {
     border-radius: 10px;
