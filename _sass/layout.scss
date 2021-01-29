@@ -1,0 +1,55 @@
+body {
+  background: var(--clr-green);
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.landing {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.landing .card {
+  max-width: 600px;
+}
+
+.photo-container {
+  position: relative;
+}
+
+.about .img1 {
+  margin-top: 2em;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: block;
+}
+
+.about .img2 {
+  position: absolute;
+  z-index: 3;
+  left: -30px;
+  top: 30px;
+  width: 60px;
+}
+
+.footer {
+  background: var(--clr-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}

@@ -1,0 +1,115 @@
+---
+layout: default
+---
+
+<div class="container">
+  <section class="landing">
+    <div class="card card--logo">
+      <img
+        src="assets/img/Logo Siems Groot 2021 RGB scherm PNG.png"
+        alt="Siems Logo"
+      />
+    </div>
+    <h1 class="landing__title">{{site.data.home.landing-title}}</h1>
+  </section>
+  <section class="services">
+    <div class="card card--services">
+      <h2 class="card__title">{{site.data.home.title1}}</h2>
+      <p class="card__content">{{site.data.home.content1}}</p>
+    </div>
+
+    <div class="card card--services">
+      <h2 class="card__title">{{site.data.home.title2}}</h2>
+      <p class="card__content">{{site.data.home.content2}}</p>
+    </div>
+
+    <div class="card card--services">
+      <h2 class="card__title">{{site.data.home.title3}}</h2>
+      <p class="card__content">{{site.data.home.content3}}</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about__content">
+      <h2 class="about__title">{{site.data.home.about-title}}</h2>
+      <p class="about__content">
+        {{site.data.home.about-content | markdownify }}
+      </p>
+    </div>
+    <div class="photo-container">
+      <img class="img1" src="assets/img/FotoSimone.jpg" alt="Foto Simone" />
+      <img
+        class="img2"
+        src="assets/img/Siems S Klein 2021 PNG.png"
+        alt="logo siems S"
+      />
+    </div>
+  </section>
+
+  <section class="partners">
+    <h2 class="partners__title">{{site.data.home.partners-title}}</h2>
+
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+
+        <div class="swiper-slide">
+          <img src="assets/img/3hwl45yd449754skbiei.240x240.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/5z3dv3x01b8w60eivb7w.240x240.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/cxbngxbjo0m31bi96q4c.240x240.png" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/hxjv98l1kotzy0q0j86x.240x240.png" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/rpxqpi8pi673omzz2md1.240x240.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/it39w1ersi6qmqvuxknm.240x240.png" alt="" />
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div> -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="partners__logos">
+      <div class="">
+        <img src="assets/img/3hwl45yd449754skbiei.240x240.jpg" alt="" />
+      </div>
+      <div class="">
+        <img src="assets/img/5z3dv3x01b8w60eivb7w.240x240.jpg" alt="" />
+      </div>
+      <div class="">
+        <img src="assets/img/cxbngxbjo0m31bi96q4c.240x240.png" alt="" />
+      </div>
+      <div class="">
+        <img src="assets/img/hxjv98l1kotzy0q0j86x.240x240.png" alt="" />
+      </div>
+      <div class="">
+        <img src="assets/img/rpxqpi8pi673omzz2md1.240x240.jpg" alt="" />
+      </div>
+      <div class="">
+        <img src="assets/img/it39w1ersi6qmqvuxknm.240x240.png" alt="" />
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="assets/js/caroussel.js"></script>
+
+  <section class="contact">
+    <h2 class="contact__title">{{site.data.home.contact-title}}</h2>
+    <p class="contact__name">{{site.data.home.contact-name}}</p>
+    <p class="contact__tel">{{site.data.home.contact-tel}}</p>
+    <p class="contact__email">{{site.data.home.contact-email}}</p>
+    <p class="contact__KvK">{{site.data.home.contact-KvK}}</p>
+    <p class="contact__btw">{{site.data.home.contact-btw}}</p>
+  </section>
+</div>

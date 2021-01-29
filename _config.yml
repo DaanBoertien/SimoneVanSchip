@@ -1,0 +1,8 @@
+baseurl: "/"
+
+collections:
+  portfolio-items:
+
+permalink: pretty
+
+timezone: Europe/Amsterdam
