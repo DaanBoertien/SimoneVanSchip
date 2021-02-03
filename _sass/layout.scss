@@ -22,12 +22,91 @@ section {
   gap: 3em;
 }
 
+.landing {
+  display: block;
+  padding-top: 0;
+}
+
+.landing__logo {
+  width: 100%;
+  max-width: 600px;
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.landing__logo::before {
+  position: absolute;
+  content: "";
+  background: var(--clr-white);
+  top: 0;
+  right: 16%;
+  bottom: 19%;
+  left: 0;
+  border-bottom-right-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.landing__logo::after {
+  position: absolute;
+  content: "";
+  left: 72%;
+  height: 64%;
+  width: 100vw;
+
+  top: 35.5%;
+  background: var(--clr-blue);
+  z-index: 2;
+  border-radius: var(--border-radius);
+}
+
+.landing__title {
+  margin-bottom: 1em;
+}
+
+.logo__image {
+  z-index: 3;
+  position: relative;
+}
+
 .landing .card {
   max-width: 600px;
 }
 
-.photo-container {
+.services--backdrop {
   position: relative;
+  z-index: -100;
+}
+.services--backdrop::before {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 46%);
+  background: var(--clr-yellow);
+  position: absolute;
+  content: "";
+  top: -2em;
+  right: -2em;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.about__photo-container {
+  position: relative;
+}
+
+.about__photo-container:hover.about__photo-container .img2 {
+  opacity: 1;
+}
+
+.about__photo-container .img2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  opacity: 0;
+  border-radius: var(--border-radius);
+  transition: opacity 0.35s ease-out;
 }
 
 .partners__logos {
@@ -36,19 +115,20 @@ section {
 
 .about .img1 {
   margin-top: 2em;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   position: relative;
   display: block;
 }
 
-.about .img2 {
-  position: absolute;
-  z-index: 3;
-  left: -30px;
-  top: 30px;
-  width: 60px;
-}
+// clipping s
+// .about .img2 {
+//   position: absolute;
+//   z-index: 3;
+//   left: -30px;
+//   top: 30px;
+//   width: 60px;
+// }
 
 .footer {
   background: var(--clr-blue);
