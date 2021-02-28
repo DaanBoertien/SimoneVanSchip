@@ -28,7 +28,10 @@
 }
 
 .card2 {
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0;
+  padding-right: 0;
   position: relative;
   background: var(--clr-green);
   align-self: start;
