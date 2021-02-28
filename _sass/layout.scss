@@ -1,5 +1,8 @@
 body {
   background: var(--clr-green);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
 }
 
 section {
@@ -29,7 +32,7 @@ section {
 
 .landing__logo {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   padding: 1em;
   position: relative;
   z-index: 1;
@@ -39,25 +42,14 @@ section {
   position: absolute;
   content: "";
   background: var(--clr-white);
-  top: 0;
-  right: 16%;
-  bottom: 19%;
+  top: -10%;
+  right: -20%;
+  bottom: -100%;
   left: 0;
   border-bottom-right-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
-}
-
-.landing__logo::after {
-  position: absolute;
-  content: "";
-  left: 72%;
-  height: 64%;
-  width: 100vw;
-
-  top: 35.5%;
-  background: var(--clr-blue);
-  z-index: 2;
-  border-radius: var(--border-radius);
+  clip-path: polygon(56.67% 6px, 96.33% 44.25%, 2px 73.86%, 1px 7.64%);
+  z-index: -10;
 }
 
 .landing__title {
@@ -73,40 +65,8 @@ section {
   max-width: 600px;
 }
 
-.services--backdrop {
-  position: relative;
-  z-index: -100;
-}
-.services--backdrop::before {
-  clip-path: polygon(50% 0%, 0% 100%, 100% 46%);
-  background: var(--clr-yellow);
-  position: absolute;
-  content: "";
-  top: -2em;
-  right: -2em;
-  bottom: 0;
-  left: 0;
-  z-index: -100;
-}
-
 .about__photo-container {
   position: relative;
-}
-
-.about__photo-container:hover.about__photo-container .img2 {
-  opacity: 1;
-}
-
-.about__photo-container .img2 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-  opacity: 0;
-  border-radius: var(--border-radius);
-  transition: opacity 0.5s ease-in-out;
 }
 
 .partners__logos {

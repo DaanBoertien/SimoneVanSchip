@@ -1,12 +1,12 @@
--geometrische vlakken
--border radius kleiner
--menu groen. kleur donker of wit
+v-geometrische vlakken
+v-border radius kleiner
+v-menu groen. kleur donker of wit
 -foto 295 > 304 mouse over
 -foto 087 favoriet
--foto 087 > 197
--schets glass effect geometrische figuren
+v-foto 087 > 197
+v-schets glass effect geometrische figuren
 -browser icoon S
--driehoekige vorm
+v-driehoekige vorm
 
 --
 profiel

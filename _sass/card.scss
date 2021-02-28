@@ -8,9 +8,7 @@
   padding: 1em;
   border-radius: 10px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  -moz-backdrop-filter: blur(10px);
+  z-index: 10;
 }
 
 .card--logo {
@@ -19,6 +17,10 @@
     rgba(241, 240, 238, 0.7572071064754027) 10%,
     rgba(245, 241, 235, 0.9527813361672794) 90%
   );
+}
+
+.card__title {
+  font-size: 2rem;
 }
 
 .card--services {
@@ -30,36 +32,4 @@
   position: relative;
   background: var(--clr-green);
   align-self: start;
-}
-
-.card2::after {
-  position: absolute;
-  content: "";
-  left: 70%;
-  right: -2px;
-  top: 70%;
-  bottom: -2px;
-  background: var(--clr-white);
-  opacity: 0.5;
-  z-index: -1;
-}
-
-.card2::before {
-  position: absolute;
-  content: "";
-  right: 70%;
-  left: -2px;
-  bottom: 70%;
-  top: -2px;
-  background: var(--clr-white);
-  opacity: 0.5;
-  z-index: -1;
-}
-
-.card2--middle {
-  margin-top: 2em;
-}
-
-.card2--right {
-  margin-top: 4em;
 }
