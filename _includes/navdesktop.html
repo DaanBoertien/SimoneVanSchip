@@ -1,0 +1,13 @@
+<div class="navdesktop">
+  <ul class="nl">
+    {% for item in site.data.navigation %}
+    <li>
+      <a
+        href="{{item.url}}"
+        class="{% if page.url == item.url %}current {% endif %}"
+        >{{item.name}}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+</div>
