@@ -11,6 +11,14 @@ nav ul {
   list-style: none;
 }
 
+nav a {
+  transition: color 0.2s ease-out;
+}
+
+nav a:hover {
+  color: var(--clr-blue);
+}
+
 .nav__link {
   color: var(--clr-white);
   text-decoration: none;
