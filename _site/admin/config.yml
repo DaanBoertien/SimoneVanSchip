@@ -83,11 +83,13 @@ collections:
     label: "Portfolio"
     folder: "_posts/"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: false
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Titel", name: "posttitle", widget: "string" }
+      - { label: "PostTitel", name: "posttitle", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Subtitel", name: "subtitle", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
