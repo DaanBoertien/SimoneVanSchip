@@ -83,6 +83,7 @@ collections:
     label: "Portfolio"
     folder: "_posts/"
     create: true
+    summary: "{{posttitle}}"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: false
