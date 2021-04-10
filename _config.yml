@@ -1,7 +1,7 @@
 baseurl: "/"
 
 collections:
-  portfolio-items:
+  portfolio:
 
 permalink: pretty
 

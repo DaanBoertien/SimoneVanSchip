@@ -79,3 +79,15 @@ collections:
           - label: "BTW nummer"
             name: "contact-btw"
             widget: "string"
+  - name: "portfolio"
+    label: "Portfolio"
+    folder: "_posts/"
+    create: true
+    slug: "{{posttitle}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Titel", name: "posttitle", widget: "string" }
+      - { label: "Subtitel", name: "subtitle", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
