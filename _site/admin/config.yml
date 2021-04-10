@@ -91,5 +91,5 @@ collections:
       - { label: "PostTitel", name: "posttitle", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Subtitel", name: "subtitle", widget: "string" }
-      - { label: "Afbeelding", name: "postimage", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Afbeelding", name: "postimage", widget: "image" }
