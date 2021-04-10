@@ -24,11 +24,7 @@ title: portfolio
 
   {% for item in site.portfolio %}
   <div class="portfolio__item">
-    <img
-      src="{{site.baseurl}}assets/img/thuisarts.jpg"
-      alt="Thuisarts"
-      class="clients__image"
-    />
+    <img class="clients__image" src="{{page.postimage}}" alt="" />
     <h2 class="clients__title">{{item.posttitle}}</h2>
     <p class="clients__subtitle">{{item.subtitle}}</p>
     <a class="btn" href="{{ item.url }}">Lees meer</a>
