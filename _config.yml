@@ -6,3 +6,6 @@ collections:
 permalink: pretty
 
 timezone: Europe/Amsterdam
+
+kramdown:
+  hard_wrap: true
