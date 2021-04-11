@@ -40,6 +40,8 @@ section { margin-bottom: 2em; }
 
 .clients__image { max-width: 200px; margin-bottom: 2em; }
 
+.post__image { max-width: 100%; }
+
 .clients__title { font-size: 2em; text-transform: uppercase; letter-spacing: 1px; color: white; margin-bottom: 0; }
 
 .clients__subtitle { margin-bottom: 2em; }
