@@ -8,9 +8,10 @@ date: 2021-04-10T16:09:06.241Z
 ---
 **De opdrachtgever**
 Er zijn ontelbaar websites over gezondheid en ziekte. Maar niet allemaal even betrouwbaar. En als ze wel betrouwbaar zijn, zou je zomaar op de website van een wetenschappelijke vereniging kunnen zitten. Met als resultaat: medische abracadabra.
-
+\
 In dat gat is Thuisarts.nl gesprongen: het is een website met informatie die klopt en begrijpelijk is. De informatie komt uit de laatste wetenschappelijke richtlijnen voor (huis)artsen, en is vertaald naar gewonemensentaal.
-
+\
+\
 Het Nederlands Huisartsen Genootschap heeft Thuisarts.nl opgericht. Zij publiceren vooral teksten over zelfzorg en zorg bij de huisarts. Later kwamen er andere afzenders bij. Zo vind je er nu bijvoorbeeld ook teksten over zorg in het ziekenhuis (via de Federatie van Medisch Specialisten) en geestelijke gezondheidszorg (via AkwaGGZ).
 
 **De opdracht**
