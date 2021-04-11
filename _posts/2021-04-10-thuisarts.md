@@ -1,10 +1,10 @@
 ---
 layout: posts
+title: thuisarts
 posttitle: Thuisarts.nl via NHG
+date: 2021-04-10T16:09:06.241Z
 subtitle: Begrijpelijke teksten over zelfzorg en zorg bij de huisarts
 postimage: /assets/img/uploads/edp236qlyldgx0y4ltoa.240x240.png
-title: hoihoi
-date: 2021-04-10T16:09:06.241Z
 ---
 **De opdrachtgever**
 Er zijn ontelbaar websites over gezondheid en ziekte. Maar niet allemaal even betrouwbaar. En als ze wel betrouwbaar zijn, zou je zomaar op de website van een wetenschappelijke vereniging kunnen zitten. Met als resultaat: medische abracadabra.
