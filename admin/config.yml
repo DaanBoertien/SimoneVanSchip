@@ -81,6 +81,7 @@ collections:
             widget: "string"
   - name: "blog"
     label: "Portfolio"
+    label_singular: "Project"
     folder: "_posts/"
     create: true
     summary: "{{posttitle}}"
@@ -96,7 +97,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Afbeelding in post", name: "postimage", widget: "image" }
       - {
-          label: "Thumnail (portfoliopagina)",
+          label: "Thumbnail (portfoliopagina)",
           name: "thumbnail",
           widget: "image",
         }
