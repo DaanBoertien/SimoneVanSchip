@@ -10,7 +10,7 @@ title: portfolio
   <section class="clients">
     {% for item in site.posts %}
     <div class="portfolio__item">
-      <img class="clients__image" src="{{item.postimage}}" alt="" />
+      <img class="clients__image" src="{{item.thumbnail}}" alt="" />
       <h2 class="clients__title">{{item.posttitle}}</h2>
       <p class="clients__subtitle">{{item.subtitle}}</p>
       <a class="btn" href="{{ item.url }}">Lees meer</a>
