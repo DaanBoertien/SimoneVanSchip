@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: thuisarts3
+title: thuisarts via NHG
 posttitle: Thuisarts.nl via NHG
 date: 2021-04-10T16:09:06.241Z
 subtitle: Begrijpelijke teksten over zelfzorg en zorg bij de huisarts
