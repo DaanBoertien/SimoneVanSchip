@@ -50,7 +50,11 @@
   .about__content {
     grid-column: 1 / 5;
     grid-row: 1 / -2;
-    background: var(--clr-blue);
+    // background: var(--clr-blue);
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-top: 2em;
+
     padding: 2em;
     border-radius: var(--border-radius);
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);

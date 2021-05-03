@@ -46,7 +46,70 @@ layout: default
     </div>
   </section>
 
-  <section class="contact">
+  <section class="partners">
+    <h2 class="partners__title">{{site.data.home.partners-title}}</h2>
+
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+
+        <div class="swiper-slide">
+          <img src="{{site.baseurl}}assets/img/barabas.png" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="{{site.baseurl}}assets/img/fourcorners.png" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="{{site.baseurl}}assets/img/mvo.png" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="{{site.baseurl}}assets/img/paperless.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="{{site.baseurl}}assets/img/thuisarts.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="{{site.baseurl}}assets/img/universiteitutrecht.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div> -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="partners__logos">
+      <div class="">
+        <img src="{{site.baseurl}}assets/img/barabas.png" alt="" />
+      </div>
+      <div class="">
+        <img src="{{site.baseurl}}assets/img/fourcorners.png" alt="" />
+      </div>
+      <div class="">
+        <img src="{{site.baseurl}}assets/img/mvo.png" alt="" />
+      </div>
+      <div class="">
+        <img src="{{site.baseurl}}assets/img/paperless.jpg" alt="" />
+      </div>
+      <div class="">
+        <img src="{{site.baseurl}}assets/img/thuisarts.jpg" alt="" />
+      </div>
+      <div class="">
+        <img src="{{site.baseurl}}assets/img/universiteitutrecht.png" alt="" />
+      </div>
+    </div>
+    <a href="/portfolio" class="btn btn-action">Bekijk portfolio</a>
+  </section>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="{{site.baseurl}}assets/js/caroussel.js"></script>
+
+  <section class="contact" id="contact">
     <h2 class="contact__title">{{site.data.contact.contact-title}}</h2>
     <p class="contact__name">{{site.data.contact.contact-name}}</p>
     <p class="contact__tel">{{site.data.contact.contact-tel}}</p>

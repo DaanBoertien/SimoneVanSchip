@@ -1,0 +1,15 @@
+.contact p {
+  line-height: 0.5;
+  font-size: 1.125rem;
+}
+
+.contact__name,
+.contact__email {
+  margin-bottom: 2em;
+}
+
+// <p class="contact__name">{{site.data.contact.contact-name}}</p>
+//     <p class="contact__tel">{{site.data.contact.contact-tel}}</p>
+//     <p class="contact__email">{{site.data.contact.contact-email}}</p>
+//     <p class="contact__KvK">{{site.data.contact.contact-KvK}}</p>
+//     <p class="contact__btw">{{site.data.contact.contact-btw}}</p>

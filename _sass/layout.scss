@@ -9,6 +9,10 @@ section {
   margin-bottom: 2em;
 }
 
+#contact {
+  margin-top: 10em;
+}
+
 .container {
   width: 90%;
   max-width: 1140px;
@@ -74,6 +78,16 @@ section {
   position: relative;
 }
 
+.about__content {
+  background: var(--clr-blue);
+  margin-left: -2.5em;
+  margin-right: -2.5em;
+  padding-top: 2em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-bottom: 2em;
+}
+
 .partners__logos {
   display: none;
 }
@@ -97,6 +111,17 @@ section {
 .contact {
   position: relative;
   margin-top: 8em;
+}
+
+.contact::after {
+  position: absolute;
+  content: "";
+  background: var(--clr-yellow);
+  clip-path: polygon(-4.89% -1.37%, -4.84% 35.87%, 71.08% 44.26%);
+  top: -10em;
+  left: -4em;
+  right: 0;
+  bottom: 0;
 }
 
 .footer {
@@ -141,6 +166,17 @@ section {
 .btn:hover {
   background: var(--clr-blue);
   color: var(--clr-yellow);
+}
+
+.btn-action {
+  margin-top: 2em;
+  color: var(--clr-yellow);
+  background: var(--clr-blue);
+}
+
+.btn-action:hover {
+  color: var(--clr-blue);
+  background: var(--clr-yellow);
 }
 
 .portfolio__item {

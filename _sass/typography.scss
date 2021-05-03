@@ -7,10 +7,14 @@ body {
 h1 {
   font-size: 2em;
   color: var(--clr-white);
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  // text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   z-index: 100;
   line-height: 1;
   margin-bottom: 0.5em;
+}
+
+.portfolio__title {
+  color: var(--clr-blue);
 }
 
 h2 {
@@ -33,13 +37,13 @@ p {
   margin-bottom: 2em;
 }
 
-h2 {
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-}
+// h2 {
+//   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+// }
 
-.shadow {
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-}
+// .shadow {
+//   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+// }
 
 .about p,
 .about h2,
