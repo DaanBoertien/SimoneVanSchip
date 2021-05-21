@@ -10,7 +10,7 @@ body { background: var(--clr-green); min-height: 100vh; overflow-x: hidden; posi
 
 section { margin-bottom: 2em; }
 
-#contact { margin-top: 10em; }
+#contact { margin-top: 2em; }
 
 .container { width: 90%; max-width: 1140px; margin: 0 auto; }
 
@@ -38,9 +38,9 @@ section { margin-bottom: 2em; }
 
 .about .img1 { margin-top: 2em; border-radius: var(--border-radius); box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); position: relative; display: block; }
 
-.contact { position: relative; margin-top: 8em; }
+.contact { position: relative; margin-top: -3em; padding-top: 5em; margin-left: -4em; padding-left: 4em; }
 
-.contact::after { position: absolute; content: ""; background: var(--clr-yellow); clip-path: polygon(-4.89% -1.37%, -4.84% 35.87%, 71.08% 44.26%); top: -10em; left: -4em; right: 0; bottom: 0; }
+.contact::after { position: absolute; content: ""; background: var(--clr-white); z-index: -1; top: 0; left: 0; right: 0; bottom: -2em; clip-path: polygon(23.87% 67px, 32.42% 101.53%, -55px 102.01%, -55px 6.38%); }
 
 .footer { background: var(--clr-blue); display: flex; justify-content: center; align-items: center; padding: 1em; }
 
@@ -48,21 +48,25 @@ section { margin-bottom: 2em; }
 
 .post__image { max-width: 100%; }
 
-.clients__title { font-size: 2em; text-transform: uppercase; letter-spacing: 1px; color: white; margin-bottom: 0; }
+.clients__title { font-size: 2em; letter-spacing: 1px; color: white; margin-bottom: 0; }
 
 .clients__subtitle { margin-bottom: 2em; }
 
-.btn { padding: 0.5em 1em; background: var(--clr-yellow); color: var(--clr-blue); display: inline-block; border-radius: 3px; transition: background 0.3s ease-in-out, color 0.3s ease-in-out; cursor: pointer; text-decoration: none; }
+.btn { padding: 0.5em 1em; background: var(--clr-yellow); color: var(--clr-blue); display: inline-block; border-radius: var(--border-radius); transition: background 0.3s ease-in-out, color 0.3s ease-in-out; cursor: pointer; text-decoration: none; }
 
 .btn:hover { background: var(--clr-blue); color: var(--clr-yellow); }
 
-.btn-action { margin-top: 2em; color: var(--clr-yellow); background: var(--clr-blue); }
+.btn-action { margin-top: 2em; background: var(--clr-yellow); color: var(--clr-blue); }
 
-.btn-action:hover { color: var(--clr-blue); background: var(--clr-yellow); }
+.btn-action:hover { background: var(--clr-blue); color: var(--clr-yellow); }
+
+.portfolio, .postcontainer { margin-top: 4em; }
 
 .portfolio__item { background: rgba(255, 255, 255, 0.2); transition: background 0.3s ease-in-out; padding: 2em; margin-bottom: 2em; }
 
 .portfolio__item:hover { background: rgba(255, 255, 255, 0.3); }
+
+.postimage { margin-bottom: 2em; }
 
 body { font-family: muli, sans-serif; font-size: 1.2rem; line-height: 1.6; }
 
@@ -112,8 +116,8 @@ nav a:hover { color: var(--clr-blue); }
 
 .contact__name, .contact__email { margin-bottom: 2em; }
 
-@media (min-width: 840px) { body { overflow-x: hidden; } h1 { font-size: 4em; } .about h2 { font-size: 2em; } .partners h2, .contact h2 { font-size: 2em; } .nav ul { gap: 4em; } .services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1em; } .card--services { padding: 1em; width: 100%; } .services--backdrop::before { clip-path: polygon(50% 0%, 0% 100%, 100% 46%); background: var(--clr-yellow); position: absolute; content: ""; top: -2em; right: -2em; bottom: 0; left: 0; z-index: -100; } .about { display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(8, 1fr); } .about__content { grid-column: 1 / 5; grid-row: 1 / -2; margin-left: 0em; margin-right: 0em; padding-top: 2em; padding: 2em; border-radius: var(--border-radius); box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); } .about .img1 { margin-top: 0; } .about__content__text { max-width: 70%; font-size: 1.2em; } .about__photo-container { grid-row: 2 / -1; grid-column: 4 / -1; } .card2--middle { margin-top: 2em; } .card2--right { margin-top: 4em; } .card2 { padding: 1em; margin-top: 1em; } .contact::after { position: absolute; content: ""; background: var(--clr-yellow); clip-path: polygon(-4.89% -1.37%, -4.84% 35.87%, 71.08% 44.26%); top: -10em; left: -4em; right: 0; bottom: 0; } .partners__logos { display: flex; gap: 3em; align-items: space-between; } .partners__logos img { border-radius: 10px; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); } .swiper-container { display: none; } }
+@media (min-width: 840px) { body { overflow-x: hidden; } h1 { font-size: 4em; } .about h2 { font-size: 2em; } .partners h2, .contact h2 { font-size: 2em; } .nav ul { gap: 4em; } .services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1em; } .card--services { padding: 1em; width: 100%; } .services--backdrop::before { clip-path: polygon(50% 0%, 0% 100%, 100% 46%); background: var(--clr-yellow); position: absolute; content: ""; top: -2em; right: -2em; bottom: 0; left: 0; z-index: -100; } .about { display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(8, 1fr); } .about__content { grid-column: 1 / 5; grid-row: 1 / -2; margin-left: 0em; margin-right: 0em; padding-top: 2em; padding: 2em; border-radius: var(--border-radius); } .about .img1 { margin-top: 0; } .about__content__text { max-width: 70%; font-size: 1.2em; } .about__photo-container { grid-row: 2 / -1; grid-column: 4 / -1; } .card2--middle { margin-top: 2em; } .card2--right { margin-top: 4em; } .card2 { padding: 1em; margin-top: 1em; } .partners__logos { display: flex; gap: 3em; align-items: space-between; } .partners__logos img { border-radius: var(--border-radius); } .swiper-container { display: none; } }
 
-@media (min-width: 1000px) { .card--services { padding: 2em; } .services { gap: 2em; } body::after { content: ""; position: absolute; background: var(--clr-yellow); right: 0; top: 80px; clip-path: polygon(100% 33.8%, 2.8% 13px, 100% 72.6%); width: 500px; height: 500px; z-index: 10; } .introduction { max-width: 60%; } }
+@media (min-width: 1000px) { .card--services { padding: 2em; } .services { gap: 2em; } body::after { content: ""; position: absolute; background: var(--clr-yellow); right: 0; top: 80px; clip-path: polygon(100% 30.8%, 2% 45px, 100% 72.6%); width: 500px; height: 500px; z-index: 10; } .introduction { max-width: 60%; } .clients { display: flex; gap: 2em; } }
 
 /*# sourceMappingURL=styles.css.map */
