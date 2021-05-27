@@ -4,24 +4,24 @@ layout: default
 
 <div class="container">
   <section class="services">
-    <div class="card2">
+    <div class="card2 fadeIn">
       <h2 class="card__title">{{site.data.home.title1}}</h2>
       <p class="card__content">{{site.data.home.content1}}</p>
     </div>
 
-    <div class="card2">
+    <div class="card2 fadeIn">
       <h2 class="card__title shadow">{{site.data.home.title2}}</h2>
       <p class="card__content shadow">{{site.data.home.content2}}</p>
     </div>
 
-    <div class="card2">
+    <div class="card2 fadeIn">
       <h2 class="card__title shadow">{{site.data.home.title3}}</h2>
       <p class="card__content shadow">{{site.data.home.content3}}</p>
     </div>
   </section>
 
   <section class="about">
-    <div class="about__content">
+    <div class="about__content fadeIn">
       <h2 class="about__title">{{site.data.home.about-title}}</h2>
       <div class="about__content__text">
         {{site.data.home.about-content | markdownify }}
@@ -30,14 +30,14 @@ layout: default
 
     <div class="about__photo-container">
       <img
-        class="img1"
+        class="img1 fadeIn"
         src="assets/img/210113©AnnelienNijland20203087.jpg"
         alt="Foto Simone"
       />
     </div>
   </section>
 
-  <section class="partners">
+  <section class="partners fadeIn">
     <h2 class="partners__title">{{site.data.home.partners-title}}</h2>
 
     <div class="swiper-container">
@@ -94,13 +94,16 @@ layout: default
         <img src="{{site.baseurl}}assets/img/universiteitutrecht.png" alt="" />
       </div>
     </div>
-    <a href="/portfolio" class="btn btn-action">Bekijk portfolio</a>
+
+    <div class="btn-centered fadeIn">
+      <a href="/portfolio" class="btn btn-action">Bekijk portfolio</a>
+    </div>
   </section>
 
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="{{site.baseurl}}assets/js/caroussel.js"></script>
 
-  <section class="contact" id="contact">
+  <section class="contact fadeIn" id="contact">
     <div class="contact--bg">
       <h2 class="contact__title">{{site.data.contact.contact-title}}</h2>
       <p class="contact__name">{{site.data.contact.contact-name}}</p>

@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="container">
-  <nav class="nav">
+  <nav class="nav fadeIn">
     <ul>
       
       <li>
@@ -39,7 +39,7 @@
 </div>
 
     <section class="landing">
-      <div class="landing__logo">
+      <div class="landing__logo fadeIn">
         <img
           src="/assets/img/Logo Siems Groot 2021 RGB scherm PNG.png"
           alt="Siems Logo"
@@ -49,24 +49,24 @@
     </section>
     <div class="container">
   <section class="services">
-    <div class="card2">
+    <div class="card2 fadeIn">
       <h2 class="card__title">Tekst in alle soorten en maten</h2>
       <p class="card__content">Een tekst nodig? Ik denk met je mee. Of het nu een webtekst, blog, interview of ander artikel is. Ik help je vast te stellen wat je échte boodschap is. En hoe jouw doelgroep dat wil horen. Ik ben kritisch als dat nodig is, want ik wil de beste tekst voor jou!</p>
     </div>
 
-    <div class="card2">
+    <div class="card2 fadeIn">
       <h2 class="card__title shadow">Tekst in begrijpelijke taal</h2>
       <p class="card__content shadow">Wist je dat veel mensen de teksten van bedrijven en overheid niet snappen? Dat vind ik zo erg! Daarom schrijf ik in begrijpelijke taal. Zodat jouw boodschap aankomt bij zo veel mogelijk mensen. Ik schrijf ook specifiek voor laaggeletterden.</p>
     </div>
 
-    <div class="card2">
+    <div class="card2 fadeIn">
       <h2 class="card__title shadow">Tekst voor (bedrijfs)video's</h2>
       <p class="card__content shadow">Een video maken kun je het beste overlaten aan een videobureau. Maar… zo’n bureau werkt niet altijd met tekstschrijvers. Gemiste kans! Want hoe mooi het beeld ook is, met een warrig verhaal is het niet veel waard. Ik vertaal scripts naar vlotte voice-overs.</p>
     </div>
   </section>
 
   <section class="about">
-    <div class="about__content">
+    <div class="about__content fadeIn">
       <h2 class="about__title">Over mij</h2>
       <div class="about__content__text">
         <p>Mijn naam is Simone van Schip – <strong>‘Siem’</strong> voor vrienden. Vandaar Siems. Vroeger wilde ik kunstenaar worden. Nu maak ik woordkunst, zeg ik altijd maar.</p>
@@ -80,14 +80,14 @@
 
     <div class="about__photo-container">
       <img
-        class="img1"
+        class="img1 fadeIn"
         src="assets/img/210113©AnnelienNijland20203087.jpg"
         alt="Foto Simone"
       />
     </div>
   </section>
 
-  <section class="partners">
+  <section class="partners fadeIn">
     <h2 class="partners__title">Ik werk met:</h2>
 
     <div class="swiper-container">
@@ -144,13 +144,16 @@
         <img src="/assets/img/universiteitutrecht.png" alt="" />
       </div>
     </div>
-    <a href="/portfolio" class="btn btn-action">Bekijk portfolio</a>
+
+    <div class="btn-centered fadeIn">
+      <a href="/portfolio" class="btn btn-action">Bekijk portfolio</a>
+    </div>
   </section>
 
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="/assets/js/caroussel.js"></script>
 
-  <section class="contact" id="contact">
+  <section class="contact fadeIn" id="contact">
     <div class="contact--bg">
       <h2 class="contact__title">Contact</h2>
       <p class="contact__name">Simone van Schip</p>
@@ -176,5 +179,17 @@
         });
       }
     </script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
+      integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/st.js"></script>
   </body>
 </html>

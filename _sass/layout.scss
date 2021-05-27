@@ -188,6 +188,12 @@ section {
   color: var(--clr-yellow);
 }
 
+.btn-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .portfolio,
 .postcontainer {
   margin-top: 4em;
@@ -206,4 +212,9 @@ section {
 
 .postimage {
   margin-bottom: 2em;
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: translateY(-20px);
 }
