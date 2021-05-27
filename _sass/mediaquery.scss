@@ -140,5 +140,9 @@
   .clients {
     display: flex;
     gap: 2em;
+    flex-wrap: wrap;
+  }
+  .portfolio__item {
+    flex: 1 0 48%;
   }
 }
