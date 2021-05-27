@@ -74,6 +74,8 @@ section { margin-bottom: 2em; }
 
 .fadeIn { opacity: 0; transform: translateY(-20px); }
 
+.fadeInTriangle { opacity: 0; }
+
 body { font-family: muli, sans-serif; font-size: 1.2rem; line-height: 1.6; }
 
 h1 { font-size: 2em; color: var(--clr-white); z-index: 100; line-height: 1; margin-bottom: 0.5em; }

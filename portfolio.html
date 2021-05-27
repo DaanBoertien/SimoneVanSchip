@@ -5,11 +5,11 @@ title: portfolio
 
 <div class="container p--noshadow">
   <section class="portfolio">
-    <h1 class="portfolio__title">Portfolio</h1>
+    <h1 class="portfolio__title fadeIn">Portfolio</h1>
   </section>
   <section class="clients">
     {% for item in site.posts %}
-    <div class="portfolio__item">
+    <div class="portfolio__item fadeIn">
       <img class="clients__image" src="{{item.thumbnail}}" alt="" />
       <h2 class="clients__title">{{item.title}}</h2>
       <p class="clients__subtitle">{{item.subtitle}}</p>
