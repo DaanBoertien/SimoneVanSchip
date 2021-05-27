@@ -79,6 +79,26 @@ collections:
           - label: "BTW nummer"
             name: "contact-btw"
             widget: "string"
+      - name: "logos"
+        label: "Logo's"
+        file: "_data/logos.yml"
+        editor:
+          preview: false
+        fields:
+          - label: "Logo's"
+            label_singular: "Logo"
+            name: "logo"
+            widget: "list"
+            summary: "{{fields.alt}}"
+            add_to_top: true
+            fields:
+              - label: "Logo"
+                name: "url"
+                widget: "image"
+              - label: "Bedrijf"
+                name: "title"
+                widget: "string"
+                required: false
   - name: "blog"
     label: "Portfolio"
     label_singular: "Project"

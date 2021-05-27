@@ -45,27 +45,11 @@ layout: default
       <div class="swiper-wrapper">
         <!-- Slides -->
 
+        {% for logo in site.data.logos.logo %}
         <div class="swiper-slide">
-          <img src="{{site.baseurl}}assets/img/barabas.png" alt="" />
+          <img src="{{logo.url}}" alt="{{logo.title}}" />
         </div>
-        <div class="swiper-slide">
-          <img src="{{site.baseurl}}assets/img/fourcorners.png" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="{{site.baseurl}}assets/img/mvo.png" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="{{site.baseurl}}assets/img/paperless.jpg" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="{{site.baseurl}}assets/img/thuisarts.jpg" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="{{site.baseurl}}assets/img/universiteitutrecht.png"
-            alt=""
-          />
-        </div>
+        {% endfor %}
       </div>
 
       <!-- If we need navigation buttons -->
@@ -75,24 +59,11 @@ layout: default
     </div>
 
     <div class="partners__logos">
-      <div class="">
-        <img src="{{site.baseurl}}assets/img/barabas.png" alt="" />
+      {% for logo in site.data.logos.logo %}
+      <div class="fadeIn">
+        <img src="{{logo.url}}" alt="{{logo.title}}" />
       </div>
-      <div class="">
-        <img src="{{site.baseurl}}assets/img/fourcorners.png" alt="" />
-      </div>
-      <div class="">
-        <img src="{{site.baseurl}}assets/img/mvo.png" alt="" />
-      </div>
-      <div class="">
-        <img src="{{site.baseurl}}assets/img/paperless.jpg" alt="" />
-      </div>
-      <div class="">
-        <img src="{{site.baseurl}}assets/img/thuisarts.jpg" alt="" />
-      </div>
-      <div class="">
-        <img src="{{site.baseurl}}assets/img/universiteitutrecht.png" alt="" />
-      </div>
+      {% endfor %}
     </div>
 
     <div class="btn-centered fadeIn">
