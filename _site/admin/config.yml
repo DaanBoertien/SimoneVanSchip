@@ -89,7 +89,7 @@ collections:
             label_singular: "Logo"
             name: "logo"
             widget: "list"
-            summary: "{{fields.alt}}"
+            summary: "{{fields.title}}"
             add_to_top: true
             fields:
               - label: "Logo"
