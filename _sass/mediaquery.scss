@@ -1,3 +1,14 @@
+@media (min-width: 768px) {
+  .clients {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+  .portfolio__item {
+    flex: 1 0 48%;
+  }
+}
+
 @media (min-width: 840px) {
   body {
     overflow-x: hidden;
@@ -135,14 +146,5 @@
 
   .introduction {
     max-width: 60%;
-  }
-
-  .clients {
-    display: flex;
-    gap: 2em;
-    flex-wrap: wrap;
-  }
-  .portfolio__item {
-    flex: 1 0 48%;
   }
 }
