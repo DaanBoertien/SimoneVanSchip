@@ -1,6 +1,8 @@
 logo:
-  - url: /assets/img/uploads/barabas.png
-    title: Barabas
+  - url: /assets/img/uploads/things-to-make-and-do_logo.png
+    title: Things To Make And Do
+  - url: /assets/img/uploads/bloom_logo.png
+    title: Bloom
   - url: /assets/img/uploads/fourcorners.png
     title: Fourcorners
   - url: /assets/img/uploads/mvo.png
@@ -9,5 +11,3 @@ logo:
     title: Paperless
   - url: /assets/img/uploads/thuisarts.jpg
     title: Thuisarts.nl
-  - url: /assets/img/uploads/universiteitutrecht.png
-    title: Universiteit Utrecht
