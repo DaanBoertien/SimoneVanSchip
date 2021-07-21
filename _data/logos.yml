@@ -1,15 +1,15 @@
 logo:
+  - url: /assets/img/uploads/thuisarts.jpg
+    title: Thuisarts.nl
   - url: /assets/img/uploads/mvo-nederland_logo.png
     title: MVO Nederland
   - url: /assets/img/uploads/andersson-elffers-felix_logo.png
     title: Andersson Elffers Felix
-  - url: /assets/img/uploads/bloom_logo.png
-    title: Bloom
   - url: /assets/img/uploads/things-to-make-and-do_logo.png
     title: Things To Make And Do
   - url: /assets/img/uploads/fourcorners.png
     title: Fourcorners
   - url: /assets/img/uploads/paperless.jpg
     title: Paperless
-  - url: /assets/img/uploads/thuisarts.jpg
-    title: Thuisarts.nl
+  - url: /assets/img/uploads/bloom_logo.png
+    title: Bloom
