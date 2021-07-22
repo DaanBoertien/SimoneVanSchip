@@ -8,8 +8,8 @@ thumbnail: /assets/img/uploads/paperless.jpg
 ---
 **De opdrachtgever**
 
-Zoals de naam al zegt: Paperless maakt animaties. En dat doen ze daar goed, op basis van storytelling. Da's net even een andere manier van je boodschap overbrengen. Herkenbaar en fris.
+Zoals de naam al zegt: Paperless Animations maakt animaties. En dat doen ze op basis van storytelling. Want als je een zakelijke boodschap verhalend maakt, is-ie net even wat frisser en maak je écht contact met de kijker.
 
 **De opdracht**
 
-Sinds 2018 schrijf ik af en toe voor Paperless Animations. De ene keer word ik gevraagd om een voice-over te schrijven bij het beeldverhaal dat de Paperless-collega's al hebben bedacht. De andere keer ligt de bal helemaal bij mij: dan moet ik van een briefing van, zeg, drie memo's, tweeënhalve e-mail en een telefoontje zelf een smeuïg verhaal maken. Allebei leuk!
+Sinds 2018 schrijf ik af en toe voor Paperless Animations. De ene keer word ik gevraagd om een voice-over te schrijven bij het beeldverhaal dat de Paperless-collega's al hebben bedacht. De andere keer ligt de bal helemaal bij mij: dan moet ik van een briefing van, zeg, drie memo's, tweeënhalve e-mail en een telefoontje, zélf een smeuïg verhaal maken. Allebei leuk!
