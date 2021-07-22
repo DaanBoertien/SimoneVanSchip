@@ -7,7 +7,9 @@ postimage: /assets/img/uploads/fourcorners.png
 thumbnail: /assets/img/uploads/fourcorners.png
 ---
 **De opdrachtgever**
-volgt
+Fourcorners maakt brandfilms voor A-merken. Ze ontwikkelen films en animaties voor bedrijven die als A-merk in hun branche opereren en zich sterk willen positioneren. Voor hun klanten zijn ze een strategisch filmpartner die hen helpt bij het halen van hun doelen.
+
+Als filmbedrijf beschikken ze ook over een eigen animatiestudio, Paperless Animations. Ook daarvoor [schrijf ik](www.simonevanschip.nl/portfolio/paperless-animations). 
 
 **De opdracht**
-volgt
+Het is alweer sinds 2018 dat ik op freelance basis schrijf voor Fourcorners. Voor deze opdrachten duik ik in het verhaal achter een bedrijf. Waarom doen zij wat zij doen? Dát probeer ik te pakken, in pakkende tekst.
