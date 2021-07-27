@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Thuisarts.nl via FMS
-date: 2021-04-11T10:42:30.512Z
+date: 2021-07-26T11:39:05.632Z
 subtitle: begrijpelijke teksten over zelfzorg en zorg in het ziekenhuis
 postimage: /assets/img/uploads/image1.png
 thumbnail: /assets/img/uploads/thuisarts.jpg
