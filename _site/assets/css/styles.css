@@ -46,6 +46,8 @@ section { margin-bottom: 2em; }
 
 .footer { background: var(--clr-blue); display: flex; justify-content: center; align-items: center; padding: 1em; }
 
+.footer p { margin-bottom: 0; }
+
 .clients__image { max-width: 200px; margin-bottom: 2em; }
 
 .post__image { max-width: 100%; }
