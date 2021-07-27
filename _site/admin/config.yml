@@ -105,7 +105,8 @@ collections:
     folder: "_posts/"
     create: true
     summary: "{{title}}"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    permalink: /:title
     editor:
       preview: false
     fields:
