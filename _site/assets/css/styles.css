@@ -76,7 +76,9 @@ section { margin-bottom: 2em; }
 
 .postcontainer a:hover { color: var(--clr-yellow); }
 
-.portfolio__item { background: rgba(255, 255, 255, 0.2); transition: background 0.3s ease-in-out; padding: 2em; margin-bottom: 2em; }
+.portfolio__item { background: rgba(255, 255, 255, 0.2); transition: background 0.3s ease-in-out; padding: 2em; margin-bottom: 2em; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; }
+
+.item-content { display: flex; flex-direction: column; justify-content: flex-start; }
 
 .portfolio__item:hover { background: rgba(255, 255, 255, 0.3); }
 
