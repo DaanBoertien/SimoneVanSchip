@@ -29,8 +29,8 @@
   .contact h2 {
     font-size: 2em;
   }
-  .nav ul {
-    gap: 4em;
+  .nav a {
+    margin-left: 2em;
   }
 
   .services {
@@ -115,11 +115,12 @@
 
   .partners__logos {
     display: flex;
-    gap: 3em;
+
     align-items: space-between;
   }
   .partners__logos img {
     border-radius: var(--border-radius);
+    width: 90%;
     // box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   }
 
