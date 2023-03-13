@@ -1,11 +1,11 @@
 logo:
-  - url: /assets/img/uploads/andersson-elffers-felix_logo.png
-    title: Andersson Elffers Felix
-  - url: /assets/img/uploads/roha-amsterdan_logo.png
-    title: ROHA Amsterdam
   - url: /assets/img/uploads/thuisarts_logo.png
     title: Thuisarts.nl
-  - url: /assets/img/uploads/mvo-nederland_logo.png
-    title: MVO Nederland
+  - url: /assets/img/uploads/roha-amsterdan_logo.png
+    title: ROHA Amsterdam
   - url: /assets/img/uploads/things-to-make-and-do_logo.png
     title: Things To Make And Do
+  - url: /assets/img/uploads/andersson-elffers-felix_logo.png
+    title: Andersson Elffers Felix
+  - url: /assets/img/uploads/mvo-nederland_logo.png
+    title: MVO Nederland
