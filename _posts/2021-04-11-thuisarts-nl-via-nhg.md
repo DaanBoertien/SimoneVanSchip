@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Thuisarts.nl via NHG
-date: 2021-07-27T08:19:25.335Z
+date: 2023-10-12T14:18:01.969Z
 subtitle: begrijpelijke teksten over ziekte en gezondheid
 postimage: /assets/img/uploads/image2.png
 thumbnail: /assets/img/uploads/thuisarts_logo.png
