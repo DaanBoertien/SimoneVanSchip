@@ -12,4 +12,4 @@ Things To Make And Do is een studio voor visuele communicatie. Vanuit Den Haag w
 
 **De opdracht**
 
-Inmiddels heb ik een paar korte opdrachten mogen doen voor Things To Make And Do. Zo redigeerde ik de voice-overs voor animaties van Zorginstituut Nederland, waarbij ik ervoor zorgde dat de tekst vlot liep en begrijpelijk was voor zo veel mogelijk mensen. Ik schreef mee aan webteksten voor Statiegeld Nederland, voor de campagne rondom de invoering van statiegeld op kleine flesjes. Voor het Centraal Justitieel Incassobureau (CJIB) werkte ik tot slot mee aan een interne factsheet.
+Inmiddels heb ik allerlei korte opdrachten gedaan voor Things To Make And Do. Zo schreef en redigeerde ik de voice-overs voor animaties van Zorginstituut Nederland. Voor het Centraal Justitieel Incassobureau (CJIB) werkte ik mee aan een interne factsheet. Voor het ministerie van Economische Zaken schreef ik korte copy voor de campagne over security.txt: een manier om ethische hackers je snel te laten waarschuwen voor een beveiligingslek. En voor Haags Ontmoeten - een initiatief voor ouderen en hun mantelzorgers - zorgde ik voor begrijpelijke flyers.
